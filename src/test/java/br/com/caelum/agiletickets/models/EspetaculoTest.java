@@ -118,7 +118,7 @@ public class EspetaculoTest {
 			LocalDate dataSessaoCalculada = dataInicio.plusDays(i);
 			datasSessoesCalculadas.add(dataSessaoCalculada);
 		}
-		assertTrue(sessoes.size() == 2);
+		assertTrue(sessoes.size() == 3);
 	}
 
 }
